@@ -1,9 +1,9 @@
 <?php 
-
 $semana = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'];
 
 // agrego un nuevo elemento en la posición 7
 $semana[7] = 'domilunes';
+//Arreglo Indexado
 echo $semana[7] . "<br>"; // imprime "domilunes"
 
 // array con sintaxis corta
@@ -18,3 +18,10 @@ echo "<br>";
 
 // ✅ imprimir un solo elemento
 echo $arreglo2[3] . "<br>"; // imprime "Jueves"
+
+//Arreglo Asociativo
+
+$alex = array('telefono'=>'3704268545','edad'=>25,'apellido'=>'Galeano','pais'=>'Argentina');
+
+echo $alex['edad'] . "\n";
+echo $alex['apellido'] . "\n";
